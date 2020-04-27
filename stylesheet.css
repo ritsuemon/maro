@@ -46,10 +46,7 @@
 .header{
   position: absolute;
   top: 50px;
-  background: -moz-linear-gradient(top, #FFF, #FFC778 30%, #F89174 60%, #748af8);
-  background: -webkit-linear-gradient(top, #FFF, #FFC778 30%, #F89174 60%, #748af8);
-  background: linear-gradient(to bottom, #FFF, #FFC778 30%, #F89174 60%, #748af8);
-  width:1250px;
+  background:linear-gradient(#7fffd4,#fff) ;
   padding-bottom: 20px;
   text-align: center;
 }
