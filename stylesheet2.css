@@ -1,10 +1,51 @@
-.back{
-  background-color: #000;
+body{
+  background: black;
 }
-img.{
-  height:1500px;
-  width:2000px;
+.title_list{
+  background: #7fffd4;
+  padding-bottom: 43px;
 }
+.title0{
+  position: absolute;
+  top: 14px;
+  left: 20px;
+  font-size: 25px;
+  color: #ffffff;
+}
+
+.title0 a{
+  color:#000;
+  text-decoration: none;
+}
+
+#ber{
+  position: absolute;
+  top: 18px;
+  right: 25px;
+  font-size: 25px;
+}
+
+#open{
+  background: #7fffd4;
+}
+.menu{
+  position: absolute;
+  z-index: 3;
+  list-style: none;
+  top: 45px;
+  right: 12px;
+  font-size: 30px;
+　background: #7fffd4;
+}
+
+#open a{
+  text-decoration: none;
+}
+
+img{
+  width:1250px;
+
+  }
 
 .message_holder2{
   background-color: #000;
