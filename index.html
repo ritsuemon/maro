@@ -4,25 +4,46 @@
     <meta charset="utf-8">
     <title>時間を無駄にするクイズ</title>
     <link rel="stylesheet" href="stylesheet.css">
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
   </head>
   <body>
+    <div class="title_list">
+       <div class="title0">
+         <a href="#">まろがたけ</a>
+       </div>
+     <!--以下、メニューバー-->
+       <div id="ber"  onclick="obj=document.getElementById('open').style; obj.display=(obj.display=='none')?'block':'none';">
+           <a style="cursor:pointer;"><i class="fas fa-list"></i></a>
+       </div>
+       <div id="open" style="display:none;clear:both;">
+            <ul class="menu">
+              <li><a href="">クイズ：まろがたけ</a></li>
+              <li><a href="https://ritsuemon.github.io/maro/index.html">時間を無駄にするクイズ</a></li>
+              <li><a href="#">時間を無駄にするクイズ２</a></li>
+              <li><a href="#">時間を無駄にするクイズ３</a></li>
+           </ul>
+      <!---->
+       </div>
+    </div>
     <div class="header">
         <h1 class="title">時間を無駄にするクイズ</h1>
         <div class="message0">
            <ul>
-              <li>全部で７問</li>
-              <li>答えは一番下にあるボタンを押してまとめて確認</li>
+              <li>全部で<span>７問</span></li>
+              <li>答えは<span>一番下</span>にあるボタンを押してまとめて確認</li>
            </ul>
         </div>
     </div>
-    <div class=message_holder>
+    <div class="message_holder">
       <h4 class="message1">これが解けたらIQ120！...みたいなのをやりすぎてパターンがつかめてきたせいで、最近は自分の本当の実力が
         <br>試せてない気がしている人のために作った気がする。それと'なまはげ'。
 
       </h4>
     </div>
     <div class="quiz">
-      <ol>
+      <img src="https://raw.githubusercontent.com/ritsuemon/maro/master/KAZTDSCF7026_TP_V.jpg">
+      <h1>問題</h1>
+      <ol class="thelist">
         <li>カエルの子はオタマジャクシ、トンビの子は鷹ですが、'なまはげ'の子は何でしょう？</li>
         <li>野原ひろしの年齢は...35歳ですが、'なまはげ'は何歳でしょう？</li>
         <li>かけっこで３位の人をぬきました...このときあなたは３位ですが、'なまはげ'は何いでしょうか？</li>
@@ -30,11 +51,7 @@
         <li>なまはげ</li>
         <li>なまはげ</li>
         <li>なまはるまき</li>
-
-
-
       </ol>
-
     </div>
     <div class="answer">
       <a href="https://ritsuemon.github.io/maro/index2.html">答え合わせ</a>
