@@ -1,0 +1,23 @@
+.back{
+  background-color: #000;
+}
+img.{
+  height:1500px;
+  width:2000px;
+}
+
+.message_holder2{
+  background-color: #000;
+}
+.message21{
+  font-size: 23px;
+  color: #ff0000;
+  margin-left: 50px;
+  background-color: #000;
+}
+.answer2{
+  margin-left: 600px;
+  font-size: 30px;
+  background: #000;
+  color: red;
+}
