@@ -1,0 +1,36 @@
+.header{
+  background:#7fffd4;
+  height:120px;
+  width:auto;
+}
+.title{
+  margin-left:450px;
+}
+.message0{
+ margin-left: 180px
+}
+.message0 li{
+  list-style:none;
+  float:left;
+  padding:1px 30px;
+  font-size: 25px
+
+}
+.message_holder{
+  height:100px;
+  background-color: #ffa500;
+}
+.message1{
+  margin-top: 25px;
+  margin-left:40px;
+  font-size: 23px;
+}
+.quiz{
+  background:#00ffff;
+  height:340px;
+  font-size: 25px;
+}
+.answer{
+  margin-left: 540px;
+  font-size: 23px;
+}
