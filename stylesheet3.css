@@ -1,15 +1,93 @@
+.title_list{
+
+  background: #7fffd4;
+  padding-bottom: 43px;
+}
+.title0{
+  position: absolute;
+  top: 14px;
+  left: 20px;
+  font-size: 25px;
+  color: #ffffff;
+}
+
+.title0 a{
+  color:#000;
+  text-decoration: none;
+}
+
+#ber{
+  position: absolute;
+  top: 18px;
+  right: 25px;
+  font-size: 25px;
+}
+
+#open{
+  background: #7fffd4;
+}
+.menu{
+  position: absolute;
+  z-index: 3;
+  list-style: none;
+  top: 45px;
+  right: 12px;
+  font-size: 30px;
+　background: #7fffd4;
+}
+
+#open a{
+  text-decoration: none;
+}
+
+
 .message31{
+  position: absolute;
+  top: 50px;
   font-size: 45px;
   color:#000S;
-  background-color: #7fffd4;
-  padding-left: 40px;
+  background:linear-gradient(#7fffd4,#fff) ;
+  text-align: center;
+  width: 1264px;
 }
+
 .list_holder{
-  background: #ffa500;
+  position: absolute;
+  top: 120px;
 
 }
+
 li{
   font-size: 30px;
-  background: #ffa500;
+
+}
+
+.image31{
+  position: absolute;
+  top: 7px;
+  left: 580px;
+  height: 400px;
+  transform: rotate( 35deg);
+}
+
+.image32{
+  position: absolute;
+  top: 35px;
+  left: 900px;
+  height: 400px;
+  transform: rotate( 35deg);
+
+}
+
+.message32{
+  position: absolute;
+  top: 500px;
+  width: 900px;
+  background:-moz-linear-gradient(top left,#ffa500,#fff 65%) ;
+  background:-webkit-linear-gradient(top left,#ffa500,#fff 65%) ;
+  background:linear-gradient(to bottom right,#ffa500,#fff 65%) ;
+  font-size: 45px;
+  padding-left: 50px;
+  color:#000S;
 
 }
