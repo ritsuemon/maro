@@ -1,0 +1,133 @@
+body{
+  background: #eeffff;
+}
+.title_list{
+
+  background: #7fffd4;
+  padding-bottom: 43px;
+}
+.title0{
+  position: absolute;
+  top: 14px;
+  left: 20px;
+  font-size: 25px;
+  color: #ffffff;
+}
+
+.title0 a{
+  color:#000;
+  text-decoration: none;
+}
+
+#ber{
+  position: absolute;
+  top: 18px;
+  right: 25px;
+  font-size: 25px;
+}
+
+#open{
+  background: #7fffd4;
+}
+.menu{
+  position: absolute;
+  z-index: 3;
+  list-style: none;
+  top: 45px;
+  right: 12px;
+  font-size: 30px;
+　background: #7fffd4;
+}
+
+#open a{
+  text-decoration: none;
+}
+
+.title{
+  position: absolute;
+  z-index: 2;
+  top:240px;
+  left: 265px;
+  font-size: 83px;
+}
+
+#title_image{
+  position: absolute;
+  z-index: 1;
+  top: 49px;
+  opacity: 0.73;
+  width: 1247px
+}
+
+.message00{
+  position: absolute;
+  top: 640px;
+  right: 0px;
+  left: 0px;
+  margin-bottom: 25px;
+}
+
+.message00 h1{
+  background: linear-gradient( #00ffff,#ffeeff);
+  text-align: center;
+
+}
+
+.message00 p{
+  font-size: 20px;
+  margin:  40px ;
+}
+
+.quiz_list{
+  position: absolute;
+  top: 1200px;
+}
+
+.quiz_message{
+  background: -moz-linear-gradient(left, #ffa500,#eeffff );
+  background: -webkit-linear-gradient(left, #ffa500,#eeffff);
+  background: linear-gradient(to right, #ffa500,#eeffff );
+  font-size: 45px;
+  padding-left: 20px;
+  margin-right: 730px;
+  margin-left: 0px;
+
+}
+
+.list2{
+  font-size: 30px;
+}
+
+.list2 li{
+  margin-bottom: 28px;
+}
+
+.list2 a{
+  text-decoration: none;
+}
+
+.quiz_list img{
+  position: absolute;
+  top: 0px;
+  left: 600px;
+  right: 10px;
+  width: 647px;
+}
+
+.chat{
+  position: absolute;
+  top: 1750px;
+  right: 0px;
+  left: 0px;
+}
+.chat h1{
+  background: linear-gradient( #ffff00,#ffeeff);
+  text-align: center;
+  font-size: 38px;
+}
+
+.chat_list{
+  font-size: 25px;
+  margin-bottom: 10px;
+
+}
