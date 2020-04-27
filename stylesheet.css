@@ -19,9 +19,10 @@
 .message_holder{
   height:100px;
   background-color: #ffa500;
+  padding: 15px 10px;
 }
 .message1{
-  margin-top: 25px;
+  margin-top: 20px;
   margin-left:40px;
   font-size: 23px;
 }
@@ -29,8 +30,14 @@
   background:#00ffff;
   height:340px;
   font-size: 25px;
+  padding-top: 15px;
+  padding-bottom:80px;
+}
+.quiz li{
+  padding-top: 10px;
 }
 .answer{
   margin-left: 540px;
   font-size: 23px;
+  height:50px
 }
